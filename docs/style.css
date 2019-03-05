@@ -2,7 +2,7 @@ body, html {
   font-size: 14px;
   padding: 0;
   margin: 0 auto;
-  color: #888888; }
+  color: white; }
 
 h1 {
   text-align: center; }
@@ -34,7 +34,7 @@ h1 {
 .square {
   box-sizing: border-box;
   background-color: transparent;
-  border: 1px solid #888888;
+  border: 1px solid white;
   float: left;
   font-size: 24px;
   font-weight: bold;
@@ -63,19 +63,19 @@ li {
   margin-bottom: .85rem; }
 
 .jump-button {
-  border: 1px solid #888888;
+  border: 1px solid white;
   background-color: transparent;
   padding: .5rem;
   color: inherit;
   outline: none; }
 
 .jump-button:hover {
-  background-color: #888888;
+  background-color: white;
   color: white;
   outline: none; }
 
 .square {
-  color: #888888; }
+  color: white; }
 
 @media only screen and (min-height: 1000px) {
   .game {
@@ -101,9 +101,9 @@ li {
 
 #div-1 {
   position: absolute;
-  background-image: radial-gradient(circle at top left, #210318, #2A2041, #494573, #4F6E73, #709B93);
-  width: 100vw;
-  min-height: 150vh;
-  top: 0;
-  z-index: -100; }
+  background-image: linear-gradient(217deg, #183b4e 10%, rgba(24, 59, 78, 0) 60%), linear-gradient(127deg, #b77174 10%, rgba(183, 113, 116, 0) 60%), linear-gradient(315deg, #70eb9b 10%, rgba(112, 235, 155, 0) 60%), linear-gradient(45deg, #cab5fd 20%, rgba(202, 181, 253, 0) 60%);
+  width: 100%;
+  min-height: 120vh;
+  z-index: -50;
+  top: 0; }
 
