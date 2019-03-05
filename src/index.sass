@@ -1,7 +1,13 @@
+$lightGrey: #888888
+    
 body, html 
     font-size: 14px
     padding: 0
     margin: 0 auto
+    color: $lightGrey
+
+h1
+    text-align: center
 
     
 /* styling whole display */
@@ -31,7 +37,7 @@ body, html
 .square 
     box-sizing: border-box
     background-color: #fff
-    border: 1px solid #999999
+    border: 1px solid #bbb
     float: left
     font-size: 24px
     font-weight: bold
@@ -58,6 +64,22 @@ ul
 li 
     list-style-type: none
     margin-bottom: .85rem
+
+
+.jump-button
+    border: 1px solid $lightGrey
+    background-color: white
+    padding: .5rem
+    color: inherit
+    outline: none
+
+.jump-button:hover
+    background-color: $lightGrey
+    color: white
+    outline: none
+
+.square
+    color: $lightGrey
 
 @media only screen and (min-height: 1000px)
     .game
