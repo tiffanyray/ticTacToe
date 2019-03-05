@@ -36,8 +36,8 @@ h1
 
 .square 
     box-sizing: border-box
-    background-color: #fff
-    border: 1px solid #bbb
+    background-color: transparent
+    border: 1px solid $lightGrey
     float: left
     font-size: 24px
     font-weight: bold
@@ -68,7 +68,7 @@ li
 
 .jump-button
     border: 1px solid $lightGrey
-    background-color: white
+    background-color: transparent
     padding: .5rem
     color: inherit
     outline: none
@@ -104,3 +104,13 @@ li
         width: (45vw / 3)
     .game-info
         width: 45vw
+
+
+
+#div-1 
+    position: absolute
+    background-image: radial-gradient( circle at top left, #210318, #2A2041, #494573, #4F6E73, #709B93)
+    width: 100vw
+    min-height: 150vh
+    top: 0
+    z-index: -100
